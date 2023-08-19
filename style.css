@@ -1,0 +1,46 @@
+.container{
+    display:flex;
+    height:80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    margin:20px 20px;
+}
+
+input{
+    height: 40px;
+    width: 500px;
+    font-size: 20px;
+}
+
+button{
+    position: relative;
+    top: 3px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.result{
+    position: relative;
+    left: -50px;
+    top:0x;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+textarea{
+    resize: none;
+    position: relative;
+    left:-50px;
+    width:400px;
+    font-size: 20px;
+    overflow: scroll;
+}
+.title{
+    position: relative;
+    left: -40px;
+    text-decoration: underline;
+}
